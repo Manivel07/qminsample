@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clMainLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/padding_medium">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/clChirstmas"
+        android:layout_width="145dp"
+        android:layout_height="102dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivSpecial"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/tajimage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_star"
+                android:layout_width="@dimen/star_dim"
+                android:layout_height="@dimen/star_dim"
+                android:layout_marginEnd="75dp"
+                android:contentDescription="@null"
+                android:src="@drawable/festival_star"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvChirstmas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/meals_margin"
+                android:fontFamily="@font/proxima_nova_alt_bold"
+                android:text="@string/christmas"
+                android:textSize="@dimen/small_text_size"
+                app:layout_constraintEnd_toEndOf="@id/img_star"
+                app:layout_constraintStart_toStartOf="@id/img_star"
+                app:layout_constraintTop_toTopOf="@id/img_star" />
+
+            <TextView
+                android:id="@+id/tvSpecial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/calibri"
+                android:text="@string/special"
+                android:textColor="@color/special"
+                android:textSize="@dimen/xsmall_text_size"
+                app:layout_constraintEnd_toEndOf="@id/tvChirstmas"
+                app:layout_constraintStart_toStartOf="@id/tvChirstmas"
+                app:layout_constraintTop_toBottomOf="@id/tvChirstmas" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

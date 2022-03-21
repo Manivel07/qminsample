@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid
+        android:color="#EFB65F"/>
+
+    <stroke
+        android:width="@dimen/dimen_2dp"
+        android:color="@color/copper_text"/>
+
+    <gradient
+        android:angle="90"
+        android:endColor="@color/copper_text"
+        android:startColor="@color/dark_copper"></gradient>
+    <size
+        android:width="@dimen/profile_icon"
+        android:height="@dimen/profile_icon"/>
+</shape>

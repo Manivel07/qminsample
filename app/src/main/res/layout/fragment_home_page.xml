@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lytMainHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingTop="8dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/vSeparator"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="2dp"
+            android:background="?android:selectableItemBackground"
+            android:paddingTop="8dp"
+            android:paddingEnd="24dp"
+            android:paddingBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgLocation"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_location" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clLocationText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="@id/imgLocation"
+                app:layout_constraintStart_toEndOf="@id/imgLocation"
+                app:layout_constraintTop_toTopOf="@id/imgLocation">
+
+                <TextView
+                    android:id="@+id/tvSubLocality"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/proxima_nova_alt_bold"
+                    android:lineSpacingExtra="6sp"
+                    android:maxWidth="250dp"
+                    android:singleLine="true"
+                    android:textColor="@color/grey_gradient"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Locality" />
+
+                <TextView
+                    android:id="@+id/tvLocality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/proxima_nova_regular"
+                    android:lineSpacingExtra="6sp"
+                    android:maxWidth="200dp"
+                    android:singleLine="true"
+                    android:textColor="@color/grey_gradient"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="@id/tvSubLocality"
+                    app:layout_constraintTop_toBottomOf="@id/tvSubLocality"
+                    tools:text="Sub Locality" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/ivLocationDownArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_down"
+                app:layout_constraintStart_toEndOf="@id/clLocationText"
+                app:layout_constraintTop_toTopOf="@id/clLocationText"
+                app:tint="@color/black" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="@null"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_guest_user" />
+
+            <TextView
+                android:id="@+id/profileTextView"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/circular_name_initials"
+                android:fontFamily="@font/proxima_nova_alt_bold"
+                android:gravity="center"
+                android:textColor="@color/copper_text"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imgBikeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:contentDescription="@null"
+                android:padding="@dimen/padding_small"
+                android:src="@drawable/ic_clock_1"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/imgProfile"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:id="@+id/vSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/edit_text_stroke_color"
+        app:layout_constraintBottom_toTopOf="@id/nestedScrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clAppBar" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vSeparator">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clNestedScroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tvHello"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:fontFamily="@font/proxima_nova_alt_bold"
+                    android:text="@string/hello"
+                    android:textColor="@color/rich_red"
+                    android:paddingStart="@dimen/padding_5dp"
+                    android:textSize="@dimen/large_title_size"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:fontFamily="@font/brittanysignature"
+                    android:paddingRight="@dimen/padding_xxxlarge"
+                    android:textColor="@color/rich_red"
+                    android:textSize="@dimen/text_size_xlarge"
+                    android:ellipsize="end"
+                    android:maxLines="@integer/single_line"
+                    android:singleLine="true"
+                    android:text="mani"
+                    app:layout_constraintBottom_toBottomOf="@id/tvHello"
+                    app:layout_constraintLeft_toRightOf="@id/tvHello"
+                    app:layout_constraintStart_toEndOf="@id/tvHello"
+                    app:layout_constraintTop_toTopOf="@id/tvHello"/>
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tvGold"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="@dimen/margin_medium"-->
+<!--                    android:fontFamily="@font/proxima_nova_alt_bold"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:background="@drawable/loyality_name_bg"-->
+<!--                    android:text="@string/myaccount_gold_tv"-->
+<!--                    android:visibility="gone"-->
+<!--                    android:textSize="@dimen/secondary_text_size"-->
+<!--                    app:layout_constraintBottom_toBottomOf="@id/tvName"-->
+<!--                    app:layout_constraintLeft_toRightOf="@id/tvName"-->
+<!--                    app:layout_constraintTop_toTopOf="@id/tvName" />-->
+
+<!--                <androidx.appcompat.widget.AppCompatImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:visibility="invisible"-->
+<!--                    android:layout_marginEnd="@dimen/margin_medium"-->
+<!--                    app:layout_constraintRight_toRightOf="parent"-->
+<!--                    app:layout_constraintTop_toTopOf="@id/tvHello"-->
+<!--                    app:srcCompat="@drawable/ic_arrow_forward" />-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvGenericChannels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true"
+                android:layout_marginTop="@dimen/discover_event_margin"
+                android:layout_marginStart="@dimen/margin_small"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintTop_toBottomOf="@id/clHome"
+                tools:listitem="@layout/item_generic_channels"
+                tools:itemCount="1"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvCustomChannels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginStart="@dimen/margin_small"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rvGenericChannels"
+                tools:listitem="@layout/item_custom_channel"
+                tools:itemCount="1"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Banner"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="@dimen/margin_small"
+                android:layout_marginStart="@dimen/margin_medium_large"
+                android:layout_marginEnd="@dimen/margin_medium_large"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:visibility="gone"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintTop_toBottomOf="@id/rvCustomChannels"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+            </androidx.cardview.widget.CardView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clSpotLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_large"
+            android:layout_marginEnd="@dimen/margin_medium_large"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/Banner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/tvSpotlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/padding_small"
+                android:fontFamily="@font/brittanysignature"
+                android:text="@string/in_the_spotlight"
+                android:textColor="@color/grey_gradient"
+                android:textSize="@dimen/spotlight_text_size"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/dividerspotlight"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/stroke_width"
+                android:layout_marginStart="@dimen/margin_small_large"
+                android:background="@color/separatorView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/tvSpotlight"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/tvSpotlight"
+                app:layout_constraintStart_toEndOf="@+id/tvSpotlight" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvSpotLight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="true"
+                android:layout_marginTop="@dimen/margin_xmedium"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvSpotlight"
+                tools:listitem="@layout/item_spotlight"
+                tools:itemCount="1"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/clRestaurantsNearYou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_large"
+                android:layout_marginEnd="@dimen/margin_medium_large"
+                android:visibility="visible"
+                app:layout_constraintTop_toBottomOf="@id/clSpotLight"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/tvRestaurantsNearYou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding_small"
+                    android:fontFamily="@font/brittanysignature"
+                    android:text="@string/restaurant_near_you"
+                    android:textColor="@color/grey_gradient"
+                    android:textSize="@dimen/spotlight_text_size"
+                    app:layout_constraintStart_toStartOf="@+id/clRestaurantsNearYou"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/dividerRestaurantsNearYou"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/stroke_width"
+                    android:layout_marginStart="@dimen/margin_small_large"
+                    android:background="@color/separatorView"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@+id/tvRestaurantsNearYou"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintLeft_toRightOf="@id/tvRestaurantsNearYou"
+                    app:layout_constraintStart_toEndOf="@+id/tvRestaurantsNearYou" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvRestaurantsNearYou"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="true"
+                    android:layout_marginTop="@dimen/margin_xmedium"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tvRestaurantsNearYou"
+                    tools:itemCount="1"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

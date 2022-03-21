@@ -1,0 +1,674 @@
+<resources>
+    <string name="app_name">Qmin</string>
+
+    <string name="dine">DINE</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_text">DELICIOUS  EXPERIENCES \nONE  STEP  AWAY</string>
+    <string name="mobile_number">MOBILE NUMBER</string>
+    <string name="otp">OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="change_number">Change Number</string>
+    <string name="skip">Skip to browse</string>
+
+    <string name="welcome_sub_text">We are delighted to bring you \nyour favourites from our signature restaurants. \nQurated Quality Quisine delivered with care.</string>
+    <string name="message_enter_mobile_no">Please enter your phone number</string>
+    <string name="message_enter_otp">Now please enter the OTP code we sent</string>
+    <string name="retry">Resend Code</string>
+    <string name="name">FIRST NAME</string>
+    <string name="last_name">LAST NAME</string>
+    <string name="email">EMAIL ID</string>
+
+    <string name="profile_title">Title<font color="#df342f"><bold>*</bold></font></string>
+    <string name="profile_name">First Name<font color="#df342f"><bold>*</bold></font></string>
+    <string name="profile_last_name">Last Name<font color="#df342f"><bold>*</bold></font></string>
+    <string name="profile_dateof_birth">DATE OF BIRTH</string>
+    <string name="profile_dateof_birth_c">Date Of Birth<font color="#df342f"><bold>*</bold></font></string>
+    <string name="profile_email">Email<font color="#df342f"><bold>*</bold></font></string>
+    <string name="profile_mobile_number">Mobile Number</string>
+
+    <string name="agreeToTAndC">I agree to the <u>Terms and Conditions</u></string>
+    <string name="agreeToCAndP"><u>Privacy Policy</u></string>
+    <string name="mobileNoValidation">Please enter valid mobile number.</string>
+    <string name="otpValidation">OTP entered is incorrect. Try again.</string>
+    <string name="agreToEnrolIn">I agree to enroll into</string>
+    <string name="loyality_program"><u>Loyalty Program</u></string>
+    <string name="taj_innercircle_program"><u>Taj InnerCircle Program</u></string>
+
+    <string name="from">From</string>
+    <string name="from_order_details">From</string>
+    <string name="reimagine_your_dining_experience">Reimagine your dining experience</string>
+    <string name="we_are_delighted_to_serve_you_today">We are delighted \nto serve you today</string>
+    <string name="please_share_your_location_to_see_whatever_our_restaurants_can_serve_you_right_now">Please share your location to find our closest signature restaurants.</string>
+    <string name="proceed">Proceed</string>
+    <string name="enter_pincode">Enter Pincode</string>
+    <string name="add">ADD</string>
+    <string name="sample_rest_title">Golden Dragon</string>
+    <string name="sample_rest_subtitle">The Taj Mahal Palace</string>
+    <string name="sample_rest_cuisine">Chinese</string>
+    <string name="sample_festival_description">Recommend festive menu from our brands</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name" translatable="false">Channel human readable title</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="hello">Hello</string>
+    <string name="chef_s_favorites">Chef’s FAVOURITES</string>
+    <string name="edit_choices">Edit choices</string>
+    <string name="add_items">Add Items</string>
+    <string name="gold">GOLD</string>
+
+    <string name="bill_details">Bill Details</string>
+    <string name="add_payment_method">Add Payment Method</string>
+    <string name="item_total">Item Total</string>
+    <string name="delivery_fee">Delivery Fee</string>
+    <string name="taxes_and_charges">Taxes and Charges</string>
+    <string name="grand_total">Grand Total</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="schedule_your_order">Schedule your order</string>
+    <string name="plan_these_items_for_your_next_meal_instead">Plan these items for your next meal instead</string>
+
+    <string name="my_addresses">MY ADDRESSES</string>
+    <string name="my_orders">MY ORDERS</string>
+    <string name="sample_name">Rhea Sharma​</string>
+    <string name="customer_support">Customer Support</string>
+    <string name="cust_support_sub">Contact us for assistance</string>
+    <string name="faqs">FAQs</string>
+    <string name="faqs_sub">Frequently asked questions</string>
+
+    //Requests
+    <string name="my_requests">My Requests</string>
+    <string name="select_request">Select a requests</string>
+    <string name="past_requests_text">All your requests for past 6 months</string>
+    <string name="request_details">Request Details</string>
+    <string name="request_id">Request ID</string>
+    <string name="request_email">Email ID</string>
+    <string name="show_more"><u>Show more</u></string>
+
+    <string name="my_orders_title">My orders</string>
+    <string name="active_orders">Active Orders</string>
+    <string name="order_details_title">Order details</string>
+    <!--    <string name="reorder">Reorder</string>-->
+    <string name="order_summary">Order summary</string>
+    <string name="now">Now</string>
+    <string name="edit_time">CHOOSE SLOT</string>
+    <string name="select_a_preferred_service_time">Select your preferred delivery time</string>
+    <string name="earliest_available_delivery_slot">Earliest available delivery slot</string>
+    <string name="select_a_preferred_delivery_slot">Select your preferred delivery slot</string>
+    <string name="order_scheduled">Order scheduled</string>
+    <string name="change">Change</string>
+    <string name="add_a_special_request">Add a special request</string>
+
+    <string name="mobile_country_code">+91</string>
+    <string name="only_mobile_country_code">91</string>
+    <string name="first_name_validation">Please enter your first name</string>
+    <string name="last_name_validation">Please enter your last name</string>
+    <string name="email_validation">Please enter valid email</string>
+    <string name="email_validation_empty">Please enter your email</string>
+    <string name="tandc_validation">Please check terms and conditions.</string>
+    <string name="cAndP_validation">Please check Consent &amp; Privacy Policy.</string>
+    <string name="chkLoyProg_validation">Please check Loyalty Program</string>
+    <string name="portion_serves">Portion serves</string>
+    <string name="includes">Includes</string>
+    <string name="pincode">PINCODE</string>
+    <string name="pin_code">PIN CODE</string>
+    <string name="auto_detect_location">Auto detect location</string>
+    <string name="sorry_we_are_out_of_reach">Sorry, we are \nout of reach!</string>
+    <string name="non_serviceable_hint">We are not able to deliver to this location.\nYou can still browse through our signature restaurants.</string>
+    <string name="add_other_restaurant_header">You can also add  to this order from these restaurants</string>
+    <string name="logout">LOGOUT</string>
+    <string name="remove_the_address">Are you sure you want \nto remove this address?</string>
+    <string name="veg">Veg</string>
+    <string name="nonveg">Non-Veg</string>
+    <string name="also_order_from">Also order from</string>
+    <string name="enter_mobile_number">Please enter your mobile number.</string>
+    <!--debug-->
+    <string name="facebook_app_id">354091369373031</string>
+    <string name="fb_login_protocol_scheme">fb354091369373031</string>
+    <!--release-->
+    <!--<string name="facebook_app_id">910513512721146</string>
+    <string name="fb_login_protocol_scheme">fb910513512721146</string>-->
+    <string name="order">Order</string>
+    <string name="add_address">Add Address</string>
+    <string name="order_summary_warning">Orders once placed cannot be modified or cancelled</string>
+    <string name="need_cutlery_for_your_order">Need cutlery with your order?</string>
+    <string name="package_charges">Packaging Fee</string>
+    <string name="share">Share</string>
+    <string name="cannot_detect_network">Cannot detect network</string>
+    <string name="network_error_description">It seems you are not connected to the Internet</string>
+    <string name="shared_image_name">%s.png</string>
+    <string name="rate_dining_experience">Rate your Qmin experience</string>
+    <string name="dining_experience_sub">We\'d love to hear from you</string>
+    <string name="compliment">Compliment the chef</string>
+    <string name="submit">SUBMIT</string>
+    <string name="submit_feedback">Please submit your feedback</string>
+    <string name="food">FOOD</string>
+    <string name="delivery">DELIVERY</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="logt">Logout</string>
+    <string name="rhea">Rhea</string>
+    <string name="network_retry">retry</string>
+    <string name="save">SAVE</string>
+    <string name="location_not_enabled">Please enable your location.</string>
+    <string name="pincode_validation">Please enter your area pincode.</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="location">Location</string>
+    <string name="house_number">Apartment / Flat No.</string>
+    <string name="landmark">Landmark</string>
+    <string name="location_validation">Please choose location on map.</string>
+    <string name="flat_no_validation">Please enter house / flat no.</string>
+    <string name="landmark_validation">Please enter landmark</string>
+    <string name="save_as_validation">Please enter your prefer address type</string>
+    <string name="location_template">%s, %s</string>
+    <string name="location_template_sub">%s</string>
+    <string name="address">Address</string>
+    <string name="save_as">Save as</string>
+    <string name="remove">remove</string>
+    <string name="menu_selection">menu selection</string>
+    <string name="home_page">home page</string>
+    <string name="order_share">order_share</string>
+    <string name="cgst_label">CGST</string>
+    <string name="sgst_label">SGST</string>
+    <string name="taxes_label">Taxes</string>
+    <string name="aknowledged">Acknowledged</string>
+    <string name="order_tracking">Order Tracking</string>
+    <string name="see_details">See details</string>
+    <string name="order_date">Thursday, 7 May</string>
+    <string name="text_order_date">Order Date</string>
+    <string name="customer_support_order_date">Order Date:</string>
+    <string name="food_ready">Food Ready</string>
+    <string name="order_dispatched">Dispatched</string>
+    <string name="completed">Completed</string>
+    <string name="progress">progress</string>
+    <string name="complete">Complete</string>
+    <string name="Rs">\u20B9</string>
+    <string name="rs">\u20A8</string>
+    <string name="faq_page">faq page</string>
+    <string name="verification_failure">Verification Failed</string>
+    <string name="letters_only">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="letters_and_space">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ </string>
+    <string name="food_rating_validation">Please select food rating</string>
+    <string name="delivery_rating_validation">Please select delivery rating</string>
+    <string name="restaurant_title_template">%s, %s</string>
+    <string name="price_template">₹%s</string>
+    <string name="INR">₹</string>
+    <string name="quantity_template">%s %s</string>
+    <string name="cart_empty_message">It seems like you have\nemptied your cart</string>
+    <string name="return_to_menu">Return to menu</string>
+    <string name="no_items_found">No items found.</string>
+    <string name="no_orders_found">No completed orders found.</string>
+    <string name="we_will_try_our_best_to_honor_these_instructions">We will try our best to honour your request</string>
+    <string name="customer_sub">Customer support</string>
+    <string name="request_cllback">Request for a call back</string>
+    <string name="customer_service">Our customer support desk will connect with you at the earliest</string>
+    <string name="issue_my_order">Issue with my order</string>
+    <string name="about_my_order">About my order</string>
+    <string name="issue_related_payment">Issue related to payment</string>
+    <string name="related_payment">Payment related</string>
+    <string name="issue_with_app">Issue with the app</string>
+    <string name="offer_on_the_app">Offers on the App</string>
+    <string name="others">Others</string>
+    <string name="tab_query">Tag an order with your query</string>
+    <string name="incident_type">Bad quality</string>
+    <string name="select_order">Please select order</string>
+    <!-- <string name="order_placed">Your order has been placed successfully</string>-->
+    <string name="order_placed">Your payment was successful. You will get confirmation from restaurant very soon.</string>
+    <string name="warning_message_to_reset_cart">Are you sure you want to \nadd items from this restaurant\'s menu? \nThis will empty your cart</string>
+    <string name="time_template">60 mins</string>
+    <string name="location_err_message">Something went wrong while fetching pin code</string>
+    <string name="i_agree_to">I agree to the  </string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="my_account_terms_and_conditions">Terms and Conditions</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="items">item%s</string>
+    <string name="order_id">Order ID</string>
+    <string name="callback_request">Your call-back request has been successfully submitted. Our customer support will contact you at the earliest.</string>
+    <string name="about_qmin">About Qmin</string>
+    <string name="total">TOTAL</string>
+    <string name="otpTryExceededMessage">Please wait for 5 mins and try again</string>
+    <string name="regret_time_slot_msg">Sorry, our kitchens are closed for the day</string>
+    <string name="continue_browsing">Continue browsing</string>
+
+    <string name="paymentinitiated">Payment Initiated</string>
+    <string name="placed">Placed</string>
+    <string name="accepted">Accepted</string>
+    <string name="inprogress">In-Progress</string>
+    <string name="readyForPickUp">Ready for pickup</string>
+    <string name="ontheway">On the way</string>
+    <string name="delivered">Delivered</string>
+
+    <string name="refundinitiated">Refund Initiated</string>
+    <string name="refundprocessed">Refund Processed</string>
+    <string name="refundfailed">Refund Failed</string>
+
+    <string name="notaccepted">Not Accepted</string>
+
+    <string name="track">Track</string>
+    <!--    <string name="re_order">Reorder</string>-->
+    <string name="cancel">Cancel</string>
+    <string name="max_item_quantity_reached">Maximum 10 servings per item allowed</string>
+    <string name="disable_resend_otp_msg">Please wait for 1 minute to send OTP again</string>
+    <string name="time_slot_reset_cart_msg">Sorry, your delivery time slot just expired. \nPlease hit OK to select a new time slot.</string>
+    <string name="ok">OK</string>
+    <string name="use_alternate_address">Use alternate address</string>
+    <string name="max_cart_qty_reached_msg">Maximum 25 quantity is allowed in cart</string>
+    <string name="dash">--</string>
+    <string name="opt_send_sucesss">OTP sent successfully</string>
+    <string name="update">Update</string>
+    <string name="update_now">Update Now</string>
+    <string name="soft_update_data">A new version of the Qmin app is available</string>
+    <string name="force_update_data">Please update your Qmin app to continue</string>
+    <string name="logout_data">Are you sure you want to logout?</string>
+    <string name="unable_to_update_cart">Unable to update cart.\nAdd item to cart again</string>
+    <string name="something_new_is_cooking">Something new is cooking</string>
+    <string name="system_down_message">   Kindly call 18002667646 \nto place your order</string>
+    <string name="english_only_input_type">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.-1234567890\u0027\u0022\u0020</string>
+    <string name="english_only_input_type_address">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/-,.1234567890\u0022\u0020</string>
+    <string name="address_input_type">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.\'1234567890\u0022\u0020</string>
+    <string name="otp_auto_redirect_message">You will be automatically authenticated and logged in</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="transaction_in_progress">Transaction in progress</string>
+    <string name="guest_access_profile_message">Please login to access your profile</string>
+    <string name="guest_access_add_button_message">Please login to add items and place an order</string>
+    <string name="login">Login</string>
+    <string name="show"><u>Show</u></string>
+    <string name="card_offer"><![CDATA[Axis Bank Credit Card • 25% Off]]></string>
+    <string name="offer_applied">Offer Applied</string>
+    <string name="remove_offer">Remove</string>
+    <string name="offer_available">Offers Available</string>
+    <string name="warning_message_to_reset_offer">Are you sure you want to \nremove this offer</string>
+
+    //Offers
+    <string name="Offers">Offers</string>
+    <string name="apply">Apply</string>
+    <string name="coupon_code">Enter Coupon Code</string>
+    <string name="all_offers">All Offers</string>
+    <string name="no_offers">No other offers available</string>
+    <string name="please_enter_tic">Please enter your TIC Number*</string>
+    <string name="tic_number">TIC Number</string>
+    <string name="tic_membership_status">Membership Status</string>
+    <string name="enter_tic">Enter TIC Number</string>
+    <string name="enter_email">Enter Email ID</string>
+    <string name="tic_email">Email ID*</string>
+    <string name="validate">VALIDATE</string>
+    <string name="offers_email">Email ID</string>
+    <string name="offers_available">Offers Available</string>
+    <string name="something_went_wrong">Something went wrong. Please try again.</string>
+    <string name="valid_coupon_code">Enter valid coupan code</string>
+    <string name="coupon_applied">Coupon Code Applied</string>
+    <string name="valid_tic_number">Please Enter valid TIC number</string>
+    <string name="actual_discount">Actual discount will be calculated on payments page</string>
+    <string name="cart">Cart</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="rooted_device_detected">For your security and protection, use of rooted devices is not allowed.</string>
+    <string name="search_for_area_street">Search your locality</string>
+    <string name="get_current_location_use_gps">Current location</string>
+    <string name="use_gps">Using GPS</string>
+    <string name="see_all">See all</string>
+    <string name="loyalty_card_subtitle">Your membership status \u0026 earned points</string>
+    <string name="loyalty_card">Loyalty Card</string>
+    <string name="tic_no">IHCL00005678</string>
+    <string name="tic_member_status">The Chambers</string>
+    <string name="myaccount_gold_tv">GOLD</string>
+    <string name="myaccount_loy_value">00</string>
+    <string name="myaccount_loy_points">Points</string>
+    <string name="myaccount_myprof_tv"><u>My Profile</u></string>
+
+    <string name="select_time_slot_desc">Select a preferred service time</string>
+    <string name="select_time_slot">Select time slot</string>
+    <string name="edit_time_slot">Edit time slot</string>
+    <string name="title">TITLE</string>
+    <string name="gender">GENDER</string>
+    <string name="title_c">Title<font color="#df342f"><bold>*</bold></font></string>
+    <string name="gender_c">Gender<font color="#df342f"><bold>*</bold></font></string>
+    <string name="select_title">Please enter the title</string>
+    <string name="select_gender">Please enter your gender</string>
+    <string name="dot"><b>\u00B7</b></string>
+
+    <string name="select_date">Please enter your date of birth</string>
+    <string-array name="Prefix">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Dr</item>
+        <item>Ms</item>
+        <item>Prof</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Transgender</item>
+        <item>I\'d rather not say</item>
+    </string-array>
+    <string name="edit">Edit</string>
+    <string name="pay_with_points">Pay with Points</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm">Confirm</string>
+    <string name="please_select_points">Please select points</string>
+    <string name="available_points">Available points</string>
+
+    <string name="loyalty_points_available">%1$d points available </string>
+    <string name="loyalty_points_used">%1$d/%2$d points used </string>
+    <string name="on_selecting_reward_points">On selecting pay with points, your applied offers will be removed.</string>
+    <string name="on_selecting_coupons">On selecting offer coupons, you will not be able to use your loyalty points balance.</string>
+    <string name="apply_offer">OK, apply offer</string>
+    <string name="select_points">OK, select points</string>
+    <string name="offers_will_be_reset">Offer will be Reset    </string>
+    <string name="loyalty_will_be_reset">Loyalty  will be Reset    </string>
+    <string name="if_you_are_an_existing_tic_member_nplease_link_your_account_in_offers_section">Kindly link your Taj InnerCircle card number on the payment page to avail of special member offers</string>
+    <string name="issue_with_offers">Issue with Offers</string>
+    <string name="app_related">App related</string>
+    <string name="qmin_celebrations">Qmin celebrations</string>
+    <string name="issue_with_loyalty">Issue with Loyalty</string>
+    <string name="my_loyalty">My loyalty points</string>
+
+    // Virtual Celebrations
+    <string name="fill_details">Please fill below details</string>
+    <string name="user_name">Name</string>
+    <string name="no_of_meals">Number of meals</string>
+    <string name="mobile_num">Mobile number<font color="#df342f"><bold>*</bold></font></string>
+    <string name="email_id">Email Id</string>
+    <string name="event_date">Event date</string>
+    <string name="message_enter_name">Please enter name</string>
+    <string name="message_enter_meals">Please enter meal count</string>
+    <string name="message_enter_mobileno">Please enter mobile number</string>
+    <string name="message_enter_valid_mobileno">Please enter valid mobile number</string>
+    <string name="message_enter_email_id">Please enter email id</string>
+    <string name="message_enter_valid_email">Please enter valid email id</string>
+    <string name="message_enter_event_date">Please select event date</string>
+    <string name="virtual_cele">Qmin Celebrations</string>
+    <string name="message_thank_you">Thank you for your enquiry. We shall connect with you shortly.</string>
+    <string name="message_redirecting">Redirecting you to homepage…</string>
+    <string name="request_callback">Request call back</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="ten">10</string>
+    <string name="fifty_nine">59</string>
+    <string name="two_fourty">240</string>
+    <string name="virtual_cele_sample_title">Golden Dragon</string>
+    <string name="virtual_cele_sample_rest_subtitle">The Taj Mahal Palace</string>
+    <string name="keeping_you">Keeping You</string>
+    <string name="connected"> connected</string>
+    <string name="message_valid_meals">Meals count cannot be greater than 9999</string>
+    <string name="message_meals_zero">Minimum meal is required</string>
+    <!--  <string name="vc_large_content">For the first time ever, a digital simulation of the restaurants offers a replica of the quintessential Taj dining experience.\n\nAn online dining experience, that breaks boundaries and brings our signature dishes from your favourite restaurants in your city, to your doorstep.\n\n
+          A one-stop shop to limitless gastronomic experiences; connect with your family, friends \u0026 colleagues and indulge in a customizable culinary experience with them, celebrating every moment together virtually.
+      </string>-->
+
+    <string name="vc_large_content">Planning a virtual celebration or an  intimate soiree at home ? Qmin brings to you the quintessential Taj Dining experience with the best of our signature dishes from our iconic restaurants. Experience hospitality reimagined, with a promise of safety, seamless delivery and the highest standards of service, as you savour the taste of our authentic culinary delights.\n\nChoose your personalised menus from multi cuisine options, delivered straight to your door step. Sit back relax and enjoy  unforgettable moments  while we take care of the rest.</string>
+    <string name="vc_meetings">virtual meetings</string>
+    <string name="coorporate_managment">corporate management meets</string>
+    <string name="socail_gatherinng">social gatherings, birthdays,\nanniversaries &amp; milestones</string>
+    <string name="surprises">surpises for your family &amp; friends</string>
+    <string name="date_format_one">yyyy/MM/dd</string>
+    <string name="date_format_two">dd MMM, yyyy</string>
+    <string name="qmin_celebrations_key">qmin_celebrations</string>
+    <string name="private_party">private_party</string>
+    <string name="space"> </string>
+    <string name="bakery">bakery</string>
+    <string name="la_pat">la_pat</string>
+    <string name="qmin_comfort">qmin_comfort</string>
+    <string name="guest_access_vc_message">Please login to continue</string>
+    <string name="indian_timezone">Asia/Calcutta</string>
+    <string-array name="order_type_array">
+        <item>Order Now</item>
+        <item>Schedule an Order</item>
+    </string-array>
+    <string name="inner_circle_message">Loyalty points cannot be earned or redeemed while availing offers*</string>
+    <string name="inner_next_circle_message">InnerCircle points will not be earned &amp; \nburned while availing of other valid offers*</string>
+    <string name="eta">ETA in 75 mins</string>
+    <string name="time_slot_expire_message">Sorry, your delivery time slot just expired. Please hit OK to select a new time slot</string>
+    <string name="if_you_are_an_existing_tic_member_please_input_tic_email_id">If you are an existing TIC member, please input your membership email id</string>
+    <string name="membership_email_id">Membership email id</string>
+    <string name="membership_email_id_tic">Membership email id*</string>
+
+    <string name="estimated_delivery">Estimated Delivery:</string>
+    <string name="est_delivery">Est. Delivery:</string>
+    <string name="request_a_callback">REQUEST A CALL BACK</string>
+    <string name="refund_failed">Refund Failed</string>
+
+    <string name="saved_address">Saved Address</string>
+    <string name="recent_address">Recent Searches</string>
+    <string name="delievery_location">Set delivery location</string>
+    <string name="geo_location_callback">GeoLocationCallBack</string>
+    <string name="payment_related_offer">All payment related offers will be applicable on payments page.</string>
+    // Geo tagging
+    <string name="sub_locality">sublocality_level_1</string>
+    <string name="locality">locality</string>
+    <string name="state">administrative_area_level_1</string>
+    //App Versionx
+    <string name="app_version">App Version</string>
+    <string name="enter_query">Please enter your query below.</string>
+    <string name="word_count">0/100</string>
+    <string name="firebase_meals">no_of_meals_android</string>
+
+    //Mobile Bottom Sheet
+    <string name="click_to_proceed">Click to proceed</string>
+    <string name="CS_QC_requests_popup">No past requests found. If you still wish to connect, please post your query within “Others” option</string>
+    // Order summary
+    <string name="order_bill_details">BILL DETAILS</string>
+    <string name="rounded_off">(Rounded Off)</string>
+    <string name="delivery_discount">Discount</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="rupee_symbol">₹</string>
+    <string name="conv_fee_text">To save on the convenience fee, add items worth&#160;</string>
+    <string name="conv_fee_amount">₹570.</string>
+
+
+    <string name="marketing_check">I agree to receive Marketing &amp; promotional emails/SMS/calls/notifications from IHCL &amp; its business partners pursuant to the purposes mentioned in the privacy policy.</string>
+    <string name="verify_email">Verify Email ID</string>
+    <string name="otp_desc">Enter the OTP sent to the Email ID</string>
+    <string name="profile_update_message">Profile updated successfully</string>
+    <string name="verify_email_error">We couldn’t verify your email ID. Please check the OTP you entered</string>
+    <string name="enter_valid_email">Oops. You can not continue with this Email ID. Please enter a valid ID.</string>
+
+    <!-- Pay with points increment/decrement popup messages -->
+    <string name="reselect_remove_points">Your cart has been updated. Kindly re-select or remove loyalty points</string>
+    <string name="reselect_points">Re-select Points</string>
+    <string name="remove_points">Remove Points</string>
+
+    <!--Unsuccessful Paymment Message-->
+    <string name="payment_error">We could not complete your payment due to some error. If money has been deducted then it will be refunded.</string>
+    <string name="hotel_name">Golden Dragon, Souk</string>
+    <string name="home">Home</string>
+    <string name="home_address">D-103 Rock Castle CHS</string>
+    <string name="total_price">₹ 6,000</string>
+    <string name="total_price1"><strike>₹7,000</strike></string>
+    <string name="no_of_items">4 items</string>
+    <string name="payment_time">1:00 PM</string>
+    <string name="payment_cancel">cancel</string>
+    <string name="retry_payment">retry payment</string>
+
+    <string name="copper_tier">Copper</string>
+    <string name="gold_tier">Gold</string>
+    <string name="silver_tier">Silver</string>
+    <string name="platinum_tier">Platinum</string>
+
+    <!--Justpay Payment Message-->
+    <string name="initiate_result">initiate_result</string>
+    <string name="process_result"> process_result</string>
+    <string name="hide_loader">hide_loader</string>
+    <string name="just_pay_not_initialized">Just pay SDK not yet initialized",</string>
+    <string name="charged">charged</string>
+    <string name="pending_bvv">pending_BVV</string>
+    <string name="pending_vbv">pending_vbv</string>
+    <string name="authorizing">authorizing</string>
+    <string name="discounts_amount">"Discount Amount : "</string>
+    <string name="apply_offer_popup">Kindly apply your offer code upon cart finalization.</string>
+    <string name="ok_proceed">OK, proceed</string>
+    <string name="back_pressed">backpressed</string>
+    <string name="user_aborted">user_aborted</string>
+    <string name="status">status</string>
+    <string name="error">error</string>
+    <string name="payload">payload</string>
+    <string name="success">success</string>
+    <string name="order_failed">Order placement failed due to mismatch in payment method \u0026 offer applied. If the payment has already been done, a refund for the same will be initiated</string>
+    <string name="terms_and_privacy">I agree to the <a href="terms:"><u>Terms &amp; Conditions</u></a> &amp; <a href="privacy:"><u>Privacy Policy</u>.</a></string>
+
+    <string name="address_modal">Address Bottom sheet</string>
+    <string name="sel_del_add">Select delivery address</string>
+    <string name="no_servcble_del_add">You don\'t have any serviceable saved addresses.\nPlease add a new address to continue </string>
+    <string name="add_an_address">Add an address</string>
+    <string name="select_address">Select/Add address to continue</string>
+    <string name="choose_address">Please choose from your saved addresses serviceable by this hotel.</string>
+    <string name="selected_address">Selected Delivery Address</string>
+    <string name="change_hyperlink">Change</string>
+    <string name="service_unavble">Service unavailable</string>
+    <string name="theme_unavble">This theme is currently not serviceable at your location.</string>
+    <string name="qmin_red_unavailable">This menu is currently not serviceable at your delivery location.</string>
+    <string name="bundle">Bundle</string>
+    <string name="backtoHome">Back to homepage</string>
+    <string name="address_non_servicable">Your address is not serviceable by</string>
+    <string name="ext_service_delivery_desc">Your meal will travel a distance &amp; may reach you at ambient temperature.</string>
+    <string name="ext_service_nominal_delivery_desc">A nominal delivery fee will be applicable.</string>
+    <string name="understand">I understand</string>
+    <string name="conveience_fee">Convenience Fee</string>
+    <string name="in_the_spotlight">In the spotlight&#160;&#160;</string>
+    <string name="discover">Discover&#160;&#160;</string>
+    <string name="eat_what_you_love">Eat what you love&#160;&#160;</string>
+    <string name="convenience_fee_message_1">convenience_fee_message_1</string>
+    <string name="convenience_fee_message_2">convenience_fee_message_2</string>
+    <string name="tcp_membership_number">TCP Membership Number</string>
+    <string name="tata_neu_membership_number">TataNeu Membership Number</string>
+    <string name="you_havent_placed_any_orders_yet">You haven\'t placed any orders yet</string>
+    <string name="betaAssets">beta_assets</string>
+    <string name="no_offer">No offers available</string>
+    <string name="neu_coins">NeuCoins</string>
+
+    <!-- Clear Cart-->
+    <string name="clear_cart_confirmation_message">Are you sure you want to clear the cart?</string>
+    <string name="clear_cart_cancel">Cancel</string>
+
+    <!-- Gift Card -->
+    <string name="gc_have_card">Have a gift card?</string>
+    <string name="gc_details">Enter Gift Card Details</string>
+    <string name="gc_disclaimer_loyal">Only Taj Experience &amp; Qmin gift cards are applicable. Gift card cannot be clubbed with Offers/Loyalty points.</string>
+    <string name="gc_disclaimer">Only Taj Experience &amp; Qmin gift cards are applicable. Gift card cannot be clubbed with Offers.</string>
+    <string name="gc_hint_card_no"><font size="14">16 digits gift card no.</font></string>
+    <string name="gc_hint_card_pin"><font size="14">6 digits gift card pin</font></string>
+    <string name="gc_error_text">Entered gift card is either expired or invalid. Please re-enter.</string>
+    <string name="gc_click_to_apply">Click to Apply</string>
+    <!-- Gift Card-->
+    <string name="ok_add_items">OK, Add Items</string>
+    <string name="reapply_gc">Entered gift card will be removed, please re-apply upon cart finalization</string>
+    <string name="gc_card_applied">Hooray!!! We have applied the Gift Card for you.</string>
+    <string name="gc_applied">Gift card applied</string>
+    <string name="gc_balance">%s Selected</string>
+    <string name="gc_remove_confirmation">Are you sure, you want to remove the Gift Card?</string>
+    <string name="gc_remove">Yes, Remove</string>
+    <string name="gc_clear">Clear</string>
+    <string name="on_selecting_gift_loyalty">On applying gift card, applied loyalty points be removed.</string>
+    <string name="on_selecting_gift_offer">On applying gift card, applied offers be removed.</string>
+    <string name="ok_use_gift_card">OK, use gift card</string>
+    <string name="gc_on_select_offer">On selecting offer coupons, applied gift card will be removed.</string>
+    <string name="gc_on_select_points">On selecting pay with points, applied gift card will be removed.</string>
+    <string name="gc_ok_use_points">OK, use points</string>
+
+    <string name="request_a_call_back">Yes, Request a Call back</string>
+    <string name="need_callback_request">Are you sure you want to request a call back for issues related with your  </string>
+    <string name="_order_"> order?</string>
+    <string name="_payment_">payment?</string>
+    <string name="_offers_">offers?</string>
+    <string name="_loyalty_points_">loyalty points?</string>
+    <string name="_app_">app?</string>
+
+    <!-- MemberShip Benefits -->
+    <string name="membership_benefits">Membership Benefits</string>
+    <string name="gift_card_applied">Gift card applied</string>
+    <string name="gift_card_amt">Gift Card Amt</string>
+    <string name="net_payable_amt">Net Payable Amt</string>
+
+    <string name="loyalty_points">Loyalty Points</string>
+    <string name="offer_disabled_message_loyal">Remove pre-applied gift card/loyalty points to \nuse offers.</string>
+    <string name="offer_disabled_message">Remove pre-applied gift card to use offers.</string>
+    <string name="points_disabled_message">Remove pre-applied Offer/Gift card to use loyalty points</string>
+    <string name="disclaimer_pay_with_points">Loyalty points cannot be clubbed with Offers/Gift cards.</string>
+    <string name="disclaimer_offer">Offers cannot be clubbed with Gift card.</string>
+    <string name="disclaimer_offer_loyal">Offers cannot be clubbed with gift card/Loyalty Points</string>
+    <string name="disclaimer_gift_card">Remove pre-applied Offer to use gift card.</string>
+    <string name="disclaimer_gc_loyal">Remove pre-applied Offer/loyalty points to use gift card.</string>
+    <string name="search">&#160;&#160;Search</string>
+    <string name="no_result">No Result Found</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="star">&#160;*</string>
+    <string name="contact_no_error">Please enter contact number to proceed.</string>
+    <string name="contact_no_length_error">Please enter a valid contact number to proceed.</string>
+    <string name="contact_no">Contact No :&#160;</string>
+    <string name="contact_no_hyphen">-&#160;</string>
+    <string name="contact_no_label">Contact No : %s-%s</string>
+    <string name="contact_no_missing">Please enter a phone number. Our Delivery executive will contact you on this number.</string>
+    <string name="change_address">Change Address</string>
+    <string name="update_number">Update Number</string>
+    <string name="contact_number_edge_case">Please update your contact number linked to this address. Our delivery executive will connect with you on this number.</string>
+    <!-- Hampers -->
+    <string name="gift_hampers">Gift Hampers</string>
+    <string name="past_enquiry">Past Enquiries</string>
+    <string name="contact_cs">For any queries, Please contact our customer Support</string>
+    <string name="request_cl_back">Request Call Back</string>
+    <string name="past_hampers_requests">All your requests for past 3 months</string>
+    <string name="hamper_select_request">Select a request</string>
+    <string name="no_of_hampers">Number of Hampers*</string>
+    <string name="date_of_delivery">Date of Delivery*</string>
+    <string name="cities_delivery">Cities of Delivery</string>
+    <string name="multiple_selection">(Multiple selection allowed)*</string>
+    <string name="gift_hampers_key">qmin_hampers</string>
+    <string name="hampers_header">Qmin Hampers</string>
+    <string name="hamper_available_cities">These hampers are available across Mumbai, Bengaluru, Delhi NCR, Chennai, Hydrabad, Kolkata, Jaipur &amp; Ahmedabad locations.</string>
+    <string name="hampers_user_name">Name*</string>
+    <string name="hampers_mobile_num">Mobile Number*</string>
+    <string name="hampers_email_id">Email Id*</string>
+    <string name="message_enter_delivery_date">Please select date of delivery</string>
+    <string name="message_enter_no_of_hampers">Please enter number of hampers</string>
+    <string name="message_enter">Please enter</string>
+    <string name="multiple_cities">Cities of Delivery(Multiple selection allowed)*</string>
+    <string name="multiple_cities_hint">Cities of Delivery <font size="12">(Multiple selection allowed)*</font></string>
+    <string name="hampers_callback_request">Your call-back request has been successfully submitted. Our team will contact you at the earliest.</string>
+    <string name="hampers_no_request">You haven\'t had any past requests for the last 3 months</string>
+    <string name="see_more"><b>See More</b></string>
+    <string name="see_less"><b>See Less</b></string>
+    <!--Discount message -->
+    <string name="discount_label_start_msg">Hooray! You have saved</string>
+    <string name="discount_label_end_msg">on this order</string>
+    <string name="email_swap_success">Email Id has changed successfully.</string>
+    <string name="convenience_fee">Convenience fees will be added on Orders below %s</string>
+    <string name="add_more_items">Add more items</string>
+    <string name="go_ahead">Go ahead!</string>
+
+    <!--Dashboard-->
+    <string name="hello_text">Hello</string>
+    <string name="our_presence">Our Presence</string>
+    <string name="in_the_spotlights">In the spotlight</string>
+    <string name="restaurant_near_you">Restaurants near you</string>
+    <string name="new_one">New</string>
+    <string name="know_more">Know More</string>
+    <string name="christmas">Christmas</string>
+    <string name="special">Special</string>
+    <string name="the_taj_mahal_palace">The Taj Mahal Palace</string>
+    <string name="mins">mins</string>
+    <string name="Kms">%s Kms</string>
+    <string name="golden_dragon">Golden Dragon</string>
+    <string name="chinese">Chinese</string>
+    <string name="order_now">Order Now</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="extended_delight">Extended Delight</string>
+    <string name="order_away_till_midnight">Order away till midnight</string>
+    <string name="time">9AM-12AM</string>
+
+    <!--Nudge-->
+    <string name="non_serviceable_description">Oops! Looks like the selected location is not within the serviceable region, please change the delivery location to view our offerings.</string>
+    <string name="serviceable_description">Showing restaurants delivering to selected location</string>
+    <string name="change_location">Change Location</string>
+    <string name ="restaurants">%s Restaurant</string>
+    <string name="test">The Grand Diwali Soiree</string>
+
+
+</resources>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/white</color>
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorPrimaryDark">#901020</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="golden_color">#8d7249</color>
+
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="buttonMobileBackground">#8d7249</color>
+    <color name="edtMobileBackground">#59000000</color>
+    <color name="textShadowColor">#80000000</color>
+    <color name="laPatextShadowColor">#803b414f</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="light_grey">#f5f5f5</color>
+    <color name="border_gray_color">#14313840</color>
+    <color name="grey">#666666</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="darker_grey">#1e1e1e</color>
+    <color name="edit_text_stroke_color">#cecece</color>
+
+    <color name="grey_gradient">#313840</color>
+    <color name="light_pink">#c0a19a</color>
+    <color name="primary_text_color">#3b414f</color>
+    <color name="secondary_text_color">#c0a19a</color>
+    <color name="green">#008f00</color>
+    <color name="red">#df342f</color>
+    <color name="light_grey_gradient">#b3313840</color>
+    <color name="white_grey">#00313840</color>
+
+    <!-- Enrollment-->
+    <color name="welcomeText">#ad9189</color>
+    <color name="welcomeSubText">#993b414f</color>
+    <color name="edtMobileNumberHint">#99313840</color>
+    <color name="edtEnrolmentInput">#313840</color>
+    <color name="separatorView">#28313840</color>
+    <color name="rich_red">#901020</color>
+    <color name="disabled_rich_red">#0D901020</color>
+    <color name="light_brown">#f6f4ea</color>
+    <color name="schedule_order_background">#14313840</color>
+
+    <color name="myAccountSupport">#d9d9d9</color>
+    <color name="myAccountSupportSep">#141e1e1e</color>
+    <color name="myAddressesBg">#f8f7f2</color>
+    <color name="shareBg">#901020</color>
+    <color name="shareBg_inactive">#C05462</color>
+    <color name="shadow_color">#1A333333</color>
+    <color name="grey_light">#DDDDDD</color>
+
+    <color name="light_black">#313840</color>
+    <color name="edit_text_line_color">#28313840</color>
+    <color name="dark_pink">#ad9189</color>
+    <color name="dark_green">#0b8457</color>
+    <color name="customer_line_color">#141e1e1e</color>
+    <color name="rating_bar_on">#c0a19a</color>
+    <color name="rating_bar_off">#99313840</color>
+    <color name="red_gradient">#e6901020</color>
+    <color name="pink_gradient">#e1ad9189</color>
+    <color name="toolbar_title_color">#3b414f</color>
+    <color name="qmin_assurance_background_color">#14313840</color>
+    <color name="qmin_assurance_text_color">#993b414f</color>
+    <color name="faq_text_color">#ad9189</color>
+    <color name="privacy_policies">#4B87DD</color>
+    <color name="pincode_color">#313840</color>
+    <color name="accepted_color">#3b414f</color>
+    <color name="support_color">#14313840</color>
+    <color name="support_line_color">#141e1e1e</color>
+    <color name="faq_view_color">#28313840</color>
+    <color name="transinprogress">#313840</color>
+    <color name="text_address_headline">#3b414f</color>
+    <color name="view_item_search">#141e1e1e</color>
+    <color name="vc_center_color">#4b313840</color>
+
+    <color name="coupon_code_text_color">#797979</color>
+    <color name="edit_text_offers_hint">#5dad9189</color>
+    <color name="top_background_menu_color">#f2f2f2</color>
+    <color name="rest_name_color">#3b414f</color>
+    <color name="festive_menu_background">#f2f2f2</color>
+
+    <color name="time_slot_background">#efeff0</color>
+    <color name="dark_black">#0f0c0c</color>
+
+
+    <color name="arrow_down_tint">#3B414F</color>
+    <color name="ash_color">#898D95</color>
+
+
+    <!--Loyaity card color-->
+    <color name="copper">#CB9962</color>
+    <color name="gold">#b69f7b</color>
+    <color name="silver">#4E4646</color>
+    <color name="platinum">#1E1E25</color>
+    <color name="dark_copper">#EFB65F</color>
+
+    <color name="copper_text">#CC9760</color>
+    <color name="platinum_text">#16161D</color>
+    <color name="gold_text">#73582F</color>
+    <color name="silver_text">#7C7777</color>
+    <color name="basic_text">#901020</color>
+    <!--    #6e7379-->
+    <color name="spinner_selected_color_opacity">#f8f7f2</color>
+    <color name="spinner_unselected_color_opacity">#f2f2f2</color>
+
+    <color name="eta_background">#c73b414f</color>
+    <color name="btm_sheet_grey">#8f313840</color>
+
+    <color name="verify_email_text_color">#99404854</color>
+
+    <color name="payment_unsucessful_font">#3B414F</color>
+    <color name="discount_amount">#0B8457</color>
+    <color name="bill_details">#3B414F</color>
+    <color name="payment_related">#F6F4EA</color>
+    <color name="payment_related_txt">#3B414F</color>
+
+    <color name="dark_grey">#979797</color>
+    <color name="meals_light_brown">#F6F4EA</color>
+    <color name="meals_light_grey">#49515F</color>
+    <color name="meals_divider_color">#E5E5E5</color>
+
+    <color name="meals_text_color">#48525F</color>
+    <color name="taxes_bg">#1F000000</color>
+
+
+    <color name="copper_first_stroke">#FFCC9760</color>
+    <color name="copper_second_stroke">#FFEFB65F</color>
+
+    <color name="gold_first_stroke">#FF8D7249</color>
+    <color name="gold_second_stroke">#FFD4BD9A</color>
+
+    <color name="silver_first_stroke">#FF7C7777</color>
+    <color name="silver_second_stroke">#FFB5ACAC</color>
+
+    <color name="platinum_first_stroke">#FF16161D</color>
+    <color name="platinum_second_stroke">#FF6E6E73</color>
+
+    <color name="basic_first_stroke">#00000000</color>
+    <color name="basic_second_stroke">#901020</color>
+
+    <color name="no_servible_add">#818487</color>
+    <color name="servicable_address_bg">#F8F7F2</color>
+    <color name="sel_del_addr">#919296</color>
+    <color name="cuisine_black">#313840</color>
+    <color name="per_40_black">#66000000</color>
+    <color name="white_border">#FFFFFF</color>
+    <color name="delivery_convenience_free">#0B8457</color>
+    <color name="delivery_convenience_fee">#3B414F</color>
+
+    <!-- Gift Card Colors-->
+    <color name="athens_gray">#EFEFF0</color>
+    <color name="bright_gray">#3B414F</color>
+    <color name="tamarillo">#901020</color>
+    <color name="alto">#D8D8D8</color>
+    <color name="del_rio">#AD9189</color>
+    <color name="del_rio_40">#AD918966</color>
+    <color name="guardsman_red">#CB0000</color>
+    <color name="gc_background">@color/athens_gray</color>
+    <color name="gc_text">@color/bright_gray</color>
+    <color name="gc_apply">@color/tamarillo</color>
+    <color name="gc_remove">@color/tamarillo</color>
+    <color name="gc_separator">@color/alto</color>
+    <color name="gc_details_text">@color/del_rio</color>
+    <color name="gc_disclaimer_text">@color/bright_gray</color>
+    <color name="gc_edit_text_border">@color/del_rio_40</color>
+    <color name="gc_error">@color/guardsman_red</color>
+
+    <color name="white_50">#80FFFFFF</color>
+    <color name="rich_red_30">#4D901020</color>
+    <color name="gray_50">#803B414F</color>
+    <color name="gray_60">#993B414F</color>
+    <color name="gray_70">#B33B414F</color>
+    <color name="gray_30">#4D3B414F</color>
+    <color name="offer_disable">#D8D8D8</color>
+    <color name="rich_red_39">#63901020</color>
+    <color name="country_code">#49515F</color>
+    <color name="country_picker_search">#E8E8E8</color>
+    <color name="contact_no_error"> #CB0000</color>
+
+    <!-- Profile -->
+    <color name ="address_text">#99313840</color>
+    <color name="editTextError">#FF5722</color>
+    <!--discount color-->
+    <color name="discount_bg">#210B8457</color>
+    <color name="scroll_bar">#c0a19a</color>
+    <color name="scroll_bar_disable">#4DC0A19A</color>
+
+    <!--DashBoard-->
+    <color name="family_feast_text">#FF6A00</color>
+    <color name="family_feast">#FFFFFF</color>
+    <color name="celebration">#901020</color>
+    <color name="celebration_bottom">#313840</color>
+    <color name="extended">#FFEFF1</color>
+    <color name="extended_time">#ECD451</color>
+    <color name="spotlight">#901020</color>
+    <color name="Restaurants_near_you">#313840</color>
+    <color name="restaurant_line">#313840</color>
+    <color name="golden_dragon">#313840</color>
+    <color name="chinese">#313840</color>
+    <color name="order_now">#AD9189</color>
+    <color name="family_feast_bg">#901020</color>
+    <color name="special">#313840</color>
+    <color name="hello_text">#901020</color>
+    <color name="our_present">#313840</color>
+    <color name="presence_line">#31384029</color>
+    <color name="mumbai_text">#313840</color>
+    <color name="change_location">#901020</color>
+    <color name="cities_restaurant_bg">#0A901013</color>
+    <color name="gradient">#EE0979</color>
+    <color name="gradient_one_start">#EE0979</color>
+    <color name="gradient_one_end">#FF6A00</color>
+    <color name="gradient_two_start">#4AC7FA</color>
+    <color name="gradient_two_end">#E649F5</color>
+    <color name="gradient_three_one">#231557</color>
+    <color name="gradient_three_two">#44107A</color>
+    <color name="gradient_three_three">#FF1361</color>
+    <color name="gradient_three_four">#FFF800</color>
+    <color name="cities_card_stroke">#69000D</color>
+    <color name="gradient_restaurant_start">#A6000000</color>
+    <color name="gradient_restaurant_end">#69000D</color>
+</resources>

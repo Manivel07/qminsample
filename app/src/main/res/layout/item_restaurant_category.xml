@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/tvRestaurantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/proxima_nova_alt_bold"
+        android:textColor="@color/golden_dragon"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Golden Dragen"/>
+
+    <TextView
+        android:id="@+id/tvSpecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/calibri"
+        android:text="@string/chinese"
+        android:textColor="@color/chinese"
+        android:textSize="@dimen/xsmall_text_size"
+        app:layout_constraintStart_toStartOf="@id/tvRestaurantName"
+        app:layout_constraintTop_toBottomOf="@id/tvRestaurantName" />
+
+    <TextView
+        android:id="@+id/tvOrderNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/proxima_nova_alt_bold"
+        android:text="@string/order_now"
+        android:textColor="@color/order_now"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@id/tvSpecial"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvRestaurantName" />
+
+    <View
+        android:id="@+id/vSeparator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/margin_xxsmall"
+        android:background="@color/edit_text_stroke_color"
+        app:layout_constraintTop_toBottomOf="@+id/tvSpecial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tvSpecial"
+        app:layout_constraintEnd_toEndOf="@id/tvOrderNow"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

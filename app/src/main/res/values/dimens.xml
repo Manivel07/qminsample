@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  PADDING STANDARDS  -->
+    <dimen name="padding_xxlarge">60dp</dimen>
+    <dimen name="padding_xxxlarge">80dp</dimen>
+    <dimen name="padding_xlarge">48dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_medium_small">12dp</dimen>
+    <dimen name="padding_medium_large">24dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_xsmall">4dp</dimen>
+    <dimen name="restaurant_title_width">200dp</dimen>
+    <dimen name="restaurant_title_height">66dp</dimen>
+    <dimen name="rl_cuisine_cost_height">26dp</dimen>
+    <dimen name="restaurant_title_padding">23dp</dimen>
+    <dimen name="restaurant_des_padding">40dp</dimen>
+
+
+    <!--  MARGIN STANDARDS  -->
+    <dimen name="margin_xl">60dp</dimen>
+    <dimen name="margin_xlarge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_medium_xxlarge">20dp</dimen>
+    <dimen name="margin_xmedium">12dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_small_large">10dp</dimen>
+    <dimen name="margin_xsmall">4dp</dimen>
+    <dimen name="margin_xxsmall">2dp</dimen>
+    <dimen name="margin_medium_large">24dp</dimen>
+    <dimen name="margin_large_xlarge">48dp</dimen>
+
+    <!--  FONT STANDARDS  -->
+    <dimen name="text_size_header">48sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_large_xlarge">24sp</dimen>
+    <dimen name="text_size_xlarge">32sp</dimen>
+    <dimen name="text_size_xxlarge">64sp</dimen>
+
+    <dimen name="lineSpacing">10sp</dimen>
+    <dimen name="lineSpacingSmall">6sp</dimen>
+    <dimen name="line_spacing_x_small">4sp</dimen>
+    <dimen name="line_spacing_x_x_small">2sp</dimen>
+
+    <!--  OTHER WIDGETS  -->
+
+    <dimen name="margin_logo_top">70dp</dimen>
+    <dimen name="margin_welcome_top">40dp</dimen>
+    <dimen name="margin_mobile_top">56dp</dimen>
+
+    <dimen name="btnMobileRadius">20dp</dimen>
+    <dimen name="btnCallbackRadius">30dp</dimen>
+    <dimen name="btnMobileHeight">40dp</dimen>
+    <dimen name="btnMobileWidth">200dp</dimen>
+
+    <dimen name="edtMobileRadius">36dp</dimen>
+    <dimen name="edtMobileHeight">72dp</dimen>
+    <dimen name="edtMobileWidth">296dp</dimen>
+    <dimen name="mobileValidation">10</dimen>
+
+    <dimen name="btnRetryRadius">20dp</dimen>
+
+    <dimen name="menuSelectionImgHeight">200dp</dimen>
+
+    <dimen name="primary_text_size">16sp</dimen>
+    <dimen name="secondary_text_size">14sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="xsmall_text_size">10sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="line_spacing">8sp</dimen>
+    <dimen name="large_title_size">24sp</dimen>
+    <dimen name="medium_title_size">22sp</dimen>
+    <dimen name="logo_postion_size">-5dp</dimen>
+
+    <dimen name="corousel_height">200dp</dimen>
+    <dimen name="corousel_width">350dp</dimen>
+
+    <dimen name="profile_icon_size">20dp</dimen>
+
+    <dimen name="small_icon_size">20dp</dimen>
+
+    <dimen name="dish_image_height">120dp</dimen>
+
+    <dimen name="bottom_sheet_corner_radius">20dp</dimen>
+
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="stroke_width_point_six">0.6dp</dimen>
+    <dimen name="stroke_width_point_four">0.4dp</dimen>
+    <dimen name="letter_spacing">0.13dp</dimen>
+    <dimen name="social_gathering">0.256dp</dimen>
+    <dimen name="corporate_management">0.221dp</dimen>
+    <dimen name="viewpager_next_item_visible">24dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">48dp</dimen>
+
+    <dimen name="xsmall_radius">8dp</dimen>
+    <dimen name="small_radius">12dp</dimen>
+    <dimen name="medium_radius">16dp</dimen>
+    <dimen name="indicator_size">8dp</dimen>
+
+    <dimen name="horizontal_separator_height">1dp</dimen>
+
+    <dimen name="letterSpacingLarge">0.25</dimen>
+    <dimen name="letterSpacing">0.25</dimen>
+    <dimen name="letterSpacingSmall">0.15</dimen>
+    <dimen name="letterSpacing_xsm">0.05</dimen>
+    <dimen name="myAccountTopPadding">20dp</dimen>
+    <dimen name="termsAndConditions_Padding">25dp</dimen>
+    <dimen name="card_elavation">8dp</dimen>
+    <dimen name="linespacingXSmall">2sp</dimen>
+
+    <dimen name="img_orders_height">176dp</dimen>
+    <dimen name="img_orders_width">126dp</dimen>
+    <dimen name="card_address_width">264dp</dimen>
+    <dimen name="address_line">21dp</dimen>
+    <dimen name="festive_restaurant_width">152dp</dimen>
+    <dimen name="festive_restaurant_height">80dp</dimen>
+    <dimen name="festival_icon_height">80dp</dimen>
+    <dimen name="virtual_event_width">96dp</dimen>
+    <dimen name="discover_event_margin">5dp</dimen>
+    <dimen name="discover_width">90dp</dimen>
+    <!--  <dimen name="orders_width">90dp</dimen>-->
+
+    <dimen name="text_spacing">2dp</dimen>
+
+    <dimen name="food_type_spacing">6dp</dimen>
+    <dimen name="shadow_height">5dp</dimen>
+
+    <integer name="mobile_number_validation">10</integer>
+    <integer name="otp_validation">6</integer>
+    <integer name="name_validation">59</integer>
+    <integer name="complement_validation">150</integer>
+    <integer name="pincode_max_length">6</integer>
+    <integer name="num_stars">5</integer>
+    <integer name="step_size">1</integer>
+    <integer name="address_input">60</integer>
+    <integer name="special_request">100</integer>
+    <integer name="email_validation">150</integer>
+    <integer name="feedback_validation">200</integer>
+    <integer name="coupan_code_validation">20</integer>
+    <integer name="max_number_of_numbers">6</integer>
+
+    <dimen name="handle_bar_height">6dp</dimen>
+    <dimen name="handle_bar_width">50dp</dimen>
+    <dimen name="vc_text_height">0dp</dimen>
+
+    <dimen name="bottom_bar_menu_selection">50dp</dimen>
+    <dimen name="switch_menu_selection_width">42dp</dimen>
+    <dimen name="bottom_bar_menu_selection_height">70dp</dimen>
+
+    <dimen name="padding_logout_cta">12dp</dimen>
+    <dimen name="address_item_min_height">72dp</dimen>
+    <dimen name="match_constraints">0dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="share_dish_image_height">192dp</dimen>
+    <dimen name="map_pin">40dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
+    <dimen name="toolbar_title_size">20sp</dimen>
+    <dimen name="order_tracking_web_size">250dp</dimen>
+    <dimen name="qmin_assurances_size">100dp</dimen>
+    <dimen name="progressbar_bar_height">3dp</dimen>
+    <dimen name="progressbar_bar_width">0dp</dimen>
+    <dimen name="customer_support_top">40dp</dimen>
+    <dimen name="customer_support_spacing">18dp</dimen>
+    <dimen name="OfferTopPadding">20dp</dimen>
+    <dimen name="CleaCartTopPadding">45dp</dimen>
+    <dimen name="OfferTopRemovePadding">8dp</dimen>
+    <dimen name="OfferBottomRemovePadding">11dp</dimen>
+
+    <dimen name="edittext_height">38dp</dimen>
+    <dimen name="offer_padding_medium">16dp</dimen>
+    <dimen name="clear_cart_text_size">20sp</dimen>
+    <dimen name="padding_time">6dp</dimen>
+    <dimen name="margin_time">14dp</dimen>
+
+    <dimen name="search_width">20dp</dimen>
+    <dimen name="search_height">20dp</dimen>
+    <dimen name="title_image_rest">98dp</dimen>
+    <dimen name="title_image_width_rest">108dp</dimen>
+    <dimen name="search_margin">28dp</dimen>
+    <dimen name="set_deliever">69dp</dimen>
+    <dimen name="festive_icon_height">60dp</dimen>
+    <dimen name="parent_festive_icon">50dp</dimen>
+    <dimen name="festive_menu_height">54dp</dimen>
+    <dimen name="powerd_by_google_height">16dp</dimen>
+    <dimen name="margin_icon">5dp</dimen>
+    <dimen name="view_height">0.5dp</dimen>
+    <dimen name="myaccount_bg_height">0dp</dimen>
+    <dimen name="meals_margin">26dp</dimen>
+
+    <dimen name="margin_x_small">7dp</dimen>
+    <dimen name="margin_l">9dp</dimen>
+    <dimen name="hotel_pins_width">160dp</dimen>
+
+    <dimen name="max_width">250dp</dimen>
+    <dimen name="cost_max_width">120dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="width_0dp">0dp</dimen>
+    <dimen name="max_width_250dp">250dp</dimen>
+    <dimen name="max_width_200dp">200dp</dimen>
+    <dimen name="profile_icon">30dp</dimen>
+    <dimen name="profile_text_size">32dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="location_icon">24dp</dimen>
+    <dimen name="vector_height">30dp</dimen>
+    <dimen name="hello_name">72dp</dimen>
+
+
+
+    <integer name="max_lines">2</integer>
+    <integer name="single_line">1</integer>
+    <integer name="meals_count_length">4</integer>
+    <integer name="name_max_length">240</integer>
+
+    <!--Unsuccessful Payment-->
+    <dimen name="uns_payment_width">379dp</dimen>
+    <dimen name="uns_payment_height">304dp</dimen>
+    <dimen name="error_icon">99dp</dimen>
+    <dimen name="oops_text_margin">33dp</dimen>
+    <dimen name="divider_height">26dp</dimen>
+    <dimen name="oops_msg_margin">35dp</dimen>
+    <dimen name="cancel_btn_margin">19dp</dimen>
+    <dimen name="cancel_btn_linespacing">5sp</dimen>
+    <dimen name="fetivals_width">145dp</dimen>
+    <integer name="cs_others_contnet_length">100</integer>
+
+    <dimen name="margin_chef_fav">22dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="channels_static_text">36sp</dimen>
+    <dimen name="spotlight_text_size">19sp</dimen>
+    <dimen name="fetivals_box_width">125dp</dimen>
+    <dimen name="festival_box_height">110dp</dimen>
+    <dimen name="const_fest_height">44dp</dimen>
+    <dimen name="restaurant_title_top_margin">11dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_13sp">13sp</dimen>
+
+    <!--Gift Card-->
+    <dimen name="fiftySix">56dp</dimen>
+    <dimen name="fortyEight">48dp</dimen>
+    <dimen name="gc_height">@dimen/fiftySix</dimen>
+    <dimen name="gc_remove_box_height">86dp</dimen>
+    <dimen name="gc_edit_text_height">@dimen/fortyEight</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="gc_padding">18dp</dimen>
+    <dimen name="padding_top">116dp</dimen>
+
+    <!--DashBoard-->
+    <dimen name="restaurant_height">52dp</dimen>
+    <dimen name="extended_height">100dp</dimen>
+    <dimen name="extended_width">327dp</dimen>
+    <dimen name="header">87dp</dimen>
+    <dimen name="family_constraint">160dp</dimen>
+    <dimen name="margin_food">67dp</dimen>
+    <dimen name="star_dim">78dp</dimen>
+    <dimen name="star_bottom">63dp</dimen>
+    <dimen name="spot_width">153dp</dimen>
+    <dimen name="spot_height">141dp</dimen>
+    <dimen name="spot_constraint">193dp</dimen>
+    <dimen name="tab_width">46dp</dimen>
+    <dimen name="hello_margin">17dp</dimen>
+    <dimen name="rvfamily_top">14dp</dimen>
+    <dimen name="mumbai_text">11sp</dimen>
+
+    <!--Nudge-->
+    <dimen name="nudge_width">404dp</dimen>
+    <dimen name="nudge_margin">132dp</dimen>
+    <dimen name="map_top">212dp</dimen>
+    <dimen name="x_margin">75dp</dimen>
+    <dimen name="nudge_description_width">230dp</dimen>
+    <dimen name="constraint_height">202dp</dimen>
+
+    <dimen name="city_card">66dp</dimen>
+    <dimen name="card_corner">33dp</dimen>
+
+
+
+
+</resources>
